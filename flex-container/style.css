@@ -1,0 +1,74 @@
+:root {
+  --flex-justify-content: flex-start;
+  --flex-align-items: flex-start;
+  --flex-wrap: wrap;
+  --flex-direction: row;
+}
+
+body {
+  background: black;
+  margin:0 auto;
+}
+
+.navigation {
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation li {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background: white;
+  flex: 1;
+  margin-right: 5px;
+}
+
+.sidebar li {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+
+.main {
+  flex: 4;
+  display: flex;
+  flex-wrap: var(--flex-wrap);
+  justify-content: var(--flex-justify-content);
+  align-items: var(--flex-align-items);
+  flex-direction: var(--flex-direction);
+  background-color: white;
+}
+
+.child {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.child-one {
+  min-height: 50px;
+}
+
+.child-two {
+  min-height: 100px;
+}
+
+.child-n {
+  min-height: 150px;
+}
