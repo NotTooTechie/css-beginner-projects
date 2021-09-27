@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+
+header {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("landing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width:98%;
+    height: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.landing-message {
+    height: 100%;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.message {
+    border-top:solid white; 
+    border-width: 1px;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+button {
+    border-color: solid, white;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-width: 2px;
+}
+
